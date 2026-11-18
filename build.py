@@ -219,7 +219,23 @@ img.hero{width:100%;border-radius:14px;margin:12px 0}table{border-collapse:colla
 .week strong{display:block;font-size:1.1rem}.week .chev{margin-left:auto;font-size:1.6rem;color:#8e8e93}
 .hero-card{display:block;background:#fff;border-radius:20px;padding:12px;text-decoration:none;color:inherit;box-shadow:0 2px 10px #0002;border:1px solid #e5e5ea}
 .hero-card img{width:100%;border-radius:14px}.hero-card .row{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:8px 6px 2px}
-.grid a{text-decoration:none;color:inherit}.grid img{width:100%;border-radius:10px}.card{background:#fff;border-radius:12px;padding:10px;box-shadow:0 1px 4px #0001}
+.grid a{text-decoration:none;color:inherit}
+@media (max-width:760px) and (min-aspect-ratio:4/5) and (max-aspect-ratio:5/4){
+body{font-size:21px;line-height:1.45;padding:14px 18px}
+h1{font-size:1.45rem;margin:.1em 0 .2em}h2{font-size:1.15rem;margin-top:1.1em}
+.meta{font-size:.82rem}
+img.hero{height:120px;object-fit:cover;object-position:center;margin:6px 0}
+.jump{margin:8px 0}.jump .btn{padding:10px 16px}
+.hero-card img{height:190px;object-fit:cover}
+ul li{margin:8px 0}
+ol{padding-left:0;list-style:none;counter-reset:step}
+ol li{counter-increment:step;background:#fff;border:1px solid #e5e5ea;border-radius:14px;padding:12px 14px;margin:10px 0}
+ol li::before{content:counter(step);display:inline-flex;align-items:center;justify-content:center;width:1.6em;height:1.6em;border-radius:50%;background:#2f5d7c;color:#fff;font-weight:700;font-size:.85em;margin-right:8px}
+.btn{padding:12px 20px;font-size:1rem}
+.weeks{grid-template-columns:1fr}.week{min-height:84px}
+.grid{grid-template-columns:1fr 1fr}
+.tag{font-size:.75rem}
+}.grid img{width:100%;border-radius:10px}.card{background:#fff;border-radius:12px;padding:10px;box-shadow:0 1px 4px #0001}
 """
 
 def abs_url(rel):
@@ -265,11 +281,11 @@ def recipe_page(r, week_id, img_file):
 <nav class="nav"><a class="btn primary" href="index.html">‹ Back to the week</a><a class="btn" href="../../index.html">All weeks</a></nav>
 <h1>{esc(r["name"])}</h1>
 <p class="meta">{esc(r["type"])} · {esc(r["days"])} · Total {r["total"]} min ({esc(r["timeNote"])}) · Serves 4 · {esc(r["cuisine"])}</p>
-<img class="hero" src="{esc(img_file)}" alt="{esc(r["name"])}"><p>{tags}</p>{flag}
-<h2>Equipment</h2><p>{esc(", ".join(r["equipment"]))}</p>
-<h2>Ingredients (4 portions)</h2><ul>{ings}</ul>
-<h2>Method</h2><ol>{steps}</ol>
-<h2>Portion weights</h2><ul>{ports}</ul>{extra}
+<img class="hero" src="{esc(img_file)}" alt="{esc(r["name"])}"><p class="meta"><strong>Equipment:</strong> {esc(", ".join(r["equipment"]))}</p><p>{tags}</p>{flag}
+<nav class="nav jump"><a class="btn" href="#ingredients">Ingredients</a><a class="btn" href="#method">Method</a><a class="btn" href="#portions">Portions</a></nav>
+<h2 id="ingredients">Ingredients (4 portions)</h2><ul>{ings}</ul>
+<h2 id="method">Method</h2><ol>{steps}</ol>
+<h2 id="portions">Portion weights</h2><ul>{ports}</ul>{extra}
 <h2>Nutrition, {esc(r.get("nutritionNote","Pierre-Guy's portion"))} (estimate)</h2>
 <table><tr><td>Energy</td><td>{n["kcal"]} kcal</td></tr><tr><td>Carbs</td><td>{n["carbs"]}g</td></tr><tr><td>Fibre</td><td>{n["fibre"]}g</td></tr><tr><td>Protein</td><td>{n["protein"]}g</td></tr><tr><td>Saturated fat</td><td>{n["satfat"]}g</td></tr></table>
 </article></body></html>"""
@@ -293,7 +309,16 @@ def home_page(weeks):
     rest = "".join(
         f'<li><a class="week" href="weeks/{wid}/index.html"><img src="weeks/{wid}/{img}" alt=""><span><strong>{esc(l.replace("Week of ", ""))}</strong><span class="meta">{c} recipes</span></span><span class="chev">›</span></a></li>'
         for wid, l, img, c in weeks[1:])
-    return head("Our kitchen") + f"""<h1>Our kitchen</h1>
+    fonts = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&display=swap" rel="stylesheet">'
+    title_css = """<style>
+.site-title{text-align:center;margin:18px 0 22px}
+.site-title .eyebrow{display:block;font-size:.78rem;letter-spacing:.22em;text-transform:uppercase;color:#2f5d7c;font-weight:600;margin-bottom:6px}
+.site-title h1{font-family:"Fraunces",Georgia,"Times New Roman",serif;font-weight:600;font-size:2.3rem;line-height:1.1;margin:0;letter-spacing:-.01em}
+.site-title h1 .amp{font-style:italic;color:#2f5d7c}
+.site-title .rule{display:block;width:56px;height:3px;border-radius:3px;background:#2f5d7c;margin:14px auto 0}
+@media (max-width:760px) and (min-aspect-ratio:4/5) and (max-aspect-ratio:5/4){.site-title{margin:6px 0 14px}.site-title h1{font-size:1.75rem}}
+</style>"""
+    return head("Mariska & Pierre-Guy's weekly recipes", fonts + title_css) + f"""<header class="site-title"><h1>Mariska <span class="amp">&amp;</span> Pierre-Guy’s<br>weekly recipes</h1><span class="rule"></span></header>
 <a class="hero-card" href="weeks/{w}/index.html"><img src="weeks/{w}/{first_img}" alt="">
 <div class="row"><span><span class="meta">This week</span><strong style="display:block;font-size:1.3rem">{esc(lbl.replace("Week of ", ""))}</strong><span class="meta">{n} recipes</span></span><span class="btn primary">Open ›</span></div></a>
 {"<h2>Previous weeks</h2><ul class='weeks'>" + rest + "</ul>" if rest else ""}</body></html>"""
