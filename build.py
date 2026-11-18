@@ -209,6 +209,16 @@ h1{font-size:1.9rem;margin:.2em 0}h2{font-size:1.2rem;margin-top:1.6em;border-bo
 li{margin:6px 0}.tag{display:inline-block;background:#e8f0fe;border-radius:12px;padding:2px 10px;margin:2px;font-size:.85rem}
 img.hero{width:100%;border-radius:14px;margin:12px 0}table{border-collapse:collapse}td{padding:4px 12px 4px 0}a{color:#0066cc}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px;padding:0;list-style:none}
+.nav{display:flex;flex-wrap:wrap;gap:10px;margin:4px 0 18px}
+.btn{display:inline-flex;align-items:center;gap:6px;padding:10px 18px;border-radius:999px;background:#fff;color:#1d1d1f;text-decoration:none;font-weight:600;font-size:.95rem;box-shadow:0 1px 4px #0002;border:1px solid #e5e5ea}
+.btn:hover,.btn:active{background:#f2f2f7}.btn.primary{background:#2f5d7c;color:#fff;border-color:#2f5d7c}.btn.primary:hover{background:#264d67}
+.weeks{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:18px;padding:0;list-style:none;margin:12px 0}
+.week{display:flex;align-items:center;gap:14px;background:#fff;border-radius:18px;padding:12px;text-decoration:none;color:inherit;box-shadow:0 2px 8px #0001;border:1px solid #e5e5ea;min-height:96px}
+.week:hover,.week:active{background:#f7f7fa;box-shadow:0 4px 14px #0002}
+.week img{width:96px;height:72px;object-fit:cover;border-radius:12px;flex:none}
+.week strong{display:block;font-size:1.1rem}.week .chev{margin-left:auto;font-size:1.6rem;color:#8e8e93}
+.hero-card{display:block;background:#fff;border-radius:20px;padding:12px;text-decoration:none;color:inherit;box-shadow:0 2px 10px #0002;border:1px solid #e5e5ea}
+.hero-card img{width:100%;border-radius:14px}.hero-card .row{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:8px 6px 2px}
 .grid a{text-decoration:none;color:inherit}.grid img{width:100%;border-radius:10px}.card{background:#fff;border-radius:12px;padding:10px;box-shadow:0 1px 4px #0001}
 """
 
@@ -247,12 +257,12 @@ def recipe_page(r, week_id, img_file):
     ports = "".join(f"<li>{esc(p)}</li>" for p in r["portions"])
     flag = f'<div class="flag">⚑ {esc(r["flag"])}</div>' if r.get("flag") else ""
     if r.get("note"): flag += f'<p class="meta"><em>{esc(r["note"])}</em></p>'
-    tags = "".join(f'<span class="tag">{esc(x.replace("LowLactoseDiet","Lactose-free").replace("Diet",""))}</span>' for x in r["diet"])
+    tags = "".join(f'<span class="tag">{esc({"LowLactoseDiet":"Lactose-free","GlutenFreeDiet":"Gluten-free","VegetarianDiet":"Vegetarian"}.get(x, x))}</span>' for x in r["diet"])
     extra = (f"<h2>Next day</h2><p>{esc(r['storage'])}</p>" if r.get("storage") else "") + \
             (f"<h2>Mariska's packing</h2><p>{esc(r['packing'])}</p>" if r.get("packing") else "")
     ld = f'<script type="application/ld+json">\n{jsonld(r, img_rel)}\n</script>'
     return head(r["name"], ld) + f"""<article>
-<p class="meta"><a href="index.html">← This week's plan</a> · <a href="../../index.html">All weeks</a></p>
+<nav class="nav"><a class="btn primary" href="index.html">‹ Back to the week</a><a class="btn" href="../../index.html">All weeks</a></nav>
 <h1>{esc(r["name"])}</h1>
 <p class="meta">{esc(r["type"])} · {esc(r["days"])} · Total {r["total"]} min ({esc(r["timeNote"])}) · Serves 4 · {esc(r["cuisine"])}</p>
 <img class="hero" src="{esc(img_file)}" alt="{esc(r["name"])}"><p>{tags}</p>{flag}
@@ -276,15 +286,17 @@ def week_page(data, built):
     body = "".join(f"<h2>{esc(t)}s</h2>" + cards(v) for t, v in groups.items())
     chicken = f'<h2>Chicken for the salads</h2><p>{esc(data["chicken"])}</p>' if data.get("chicken") else ""
     note = f'<p class="meta"><em>{esc(data["note"])}</em></p>' if data.get("note") else ""
-    return head(data["week"]) + f'<p class="meta"><a href="../../index.html">← All weeks</a></p><h1>{esc(data["week"])}</h1>{note}{body}{chicken}</body></html>'
+    return head(data["week"]) + f'<nav class="nav"><a class="btn primary" href="../../index.html">‹ All weeks</a></nav><h1>{esc(data["week"])}</h1>{note}{body}{chicken}</body></html>'
 
 def home_page(weeks):
-    latest = weeks[0]
-    rest = "".join(f'<li><a href="weeks/{w}/index.html">{esc(lbl)}</a></li>' for w, lbl, _ in weeks[1:])
-    w, lbl, first_img = latest
+    w, lbl, first_img, n = weeks[0]
+    rest = "".join(
+        f'<li><a class="week" href="weeks/{wid}/index.html"><img src="weeks/{wid}/{img}" alt=""><span><strong>{esc(l.replace("Week of ", ""))}</strong><span class="meta">{c} recipes</span></span><span class="chev">›</span></a></li>'
+        for wid, l, img, c in weeks[1:])
     return head("Our kitchen") + f"""<h1>Our kitchen</h1>
-<a href="weeks/{w}/index.html" style="text-decoration:none;color:inherit"><div class="card"><img class="hero" src="weeks/{w}/{first_img}" alt=""><h2 style="border:0;margin:0">This week: {esc(lbl)}</h2></div></a>
-{"<h2>Previous weeks</h2><ul>" + rest + "</ul>" if rest else ""}</body></html>"""
+<a class="hero-card" href="weeks/{w}/index.html"><img src="weeks/{w}/{first_img}" alt="">
+<div class="row"><span><span class="meta">This week</span><strong style="display:block;font-size:1.3rem">{esc(lbl.replace("Week of ", ""))}</strong><span class="meta">{n} recipes</span></span><span class="btn primary">Open ›</span></div></a>
+{"<h2>Previous weeks</h2><ul class='weeks'>" + rest + "</ul>" if rest else ""}</body></html>"""
 
 def main():
     weeks_dir = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else ROOT / "weeks")
@@ -308,7 +320,7 @@ def main():
             (wdir / f'{r["slug"]}.html').write_text(recipe_page(r, week_id, img_file), encoding="utf-8")
             built.append((r, img_file))
         (wdir / "index.html").write_text(week_page(data, built), encoding="utf-8")
-        index.append((week_id, data["week"], built[0][1]))
+        index.append((week_id, data["week"], built[0][1], len(built)))
         print(f"{week_id}: {len(built)} recipes")
     if not index: sys.exit("No week files found in " + str(weeks_dir))
     (out / "index.html").write_text(home_page(index), encoding="utf-8")
