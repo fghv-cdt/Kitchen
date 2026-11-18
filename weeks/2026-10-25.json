@@ -1,0 +1,474 @@
+{
+  "week": "Week of Sunday 25 October 2026",
+  "note": "Recipes rebuilt from the plan log. Mediterranean week, no pulses or grains.",
+  "recipes": [
+    {
+      "slug": "one-tray-mediterranean-salmon-with-olives-and-capers",
+      "name": "One-tray Mediterranean salmon with olives and capers",
+      "type": "Evening meal",
+      "days": "Evenings 1 and 2",
+      "cuisine": "Mediterranean",
+      "diet": [
+        "GlutenFreeDiet",
+        "LowLactoseDiet"
+      ],
+      "prep": 12,
+      "cook": 18,
+      "total": 40,
+      "timeNote": "30 min calculated + 10 min buffer",
+      "equipment": [
+        "Oven",
+        "Large roasting tray"
+      ],
+      "ingredients": [
+        "4 salmon fillets (about 500g)",
+        "500g small new potatoes",
+        "300g cherry tomatoes",
+        "60g pitted Kalamata olives",
+        "2 tbsp capers",
+        "1 red onion",
+        "2 peppers",
+        "2 courgettes",
+        "1 tsp sweet smoked paprika",
+        "1 tsp dried oregano",
+        "1 lemon",
+        "1½ tbsp olive oil"
+      ],
+      "steps": [
+        {
+          "name": "Preheat and prep",
+          "text": "Preheat the oven to 220°C (200°C fan). While it heats, halve the potatoes, cut the onion into wedges and slice the peppers.",
+          "min": 10
+        },
+        {
+          "name": "Roast the base",
+          "text": "Toss the potatoes, onion and peppers with the oil, paprika and oregano and roast for 10 minutes. Meanwhile cut the courgettes into half-moons and slice the lemon.",
+          "min": 10
+        },
+        {
+          "name": "Add the salmon",
+          "text": "Add the courgettes, tomatoes, olives and capers, sit the salmon on top with the lemon slices and roast for 8 minutes.",
+          "min": 8
+        },
+        {
+          "name": "Plate",
+          "text": "Set half aside for tomorrow and plate. Pierre-Guy: 520g. Mariska: 350g.",
+          "min": 2
+        }
+      ],
+      "portions": [
+        "Pierre-Guy: 520g",
+        "Mariska: 350g"
+      ],
+      "nutrition": {
+        "kcal": 640,
+        "carbs": 40,
+        "fibre": 9,
+        "protein": 38,
+        "satfat": 5.5
+      },
+      "note": "Rebuilt from the plan log: the dish and timing are as approved, the method and figures are reconstructed estimates.",
+      "storage": "Cool within 1 hour and refrigerate. Reheat gently, covered, in a pan for 4 to 5 min until piping hot, or eat the fish cold.",
+      "flag": "Time is over 30 min."
+    },
+    {
+      "slug": "halloumi-traybake-with-oregano-new-potatoes-and-tzatziki",
+      "name": "Halloumi traybake with oregano new potatoes and tzatziki",
+      "type": "Evening meal",
+      "days": "Evenings 3 and 4",
+      "cuisine": "Greek",
+      "diet": [
+        "VegetarianDiet",
+        "GlutenFreeDiet",
+        "LowLactoseDiet"
+      ],
+      "prep": 12,
+      "cook": 18,
+      "total": 40,
+      "timeNote": "30 min calculated + 10 min buffer",
+      "equipment": [
+        "Oven",
+        "Large roasting tray",
+        "Bowl"
+      ],
+      "ingredients": [
+        "2 × 225g lighter halloumi",
+        "600g small new potatoes",
+        "2 peppers",
+        "2 courgettes",
+        "1 red onion",
+        "250g cherry tomatoes",
+        "1½ tsp dried oregano",
+        "1½ tbsp olive oil",
+        "Tzatziki: 250g lactose-free Greek-style yoghurt",
+        "Tzatziki: ½ cucumber",
+        "Tzatziki: 1 garlic clove",
+        "Tzatziki: 1 pack fresh mint",
+        "Tzatziki: ½ lemon"
+      ],
+      "steps": [
+        {
+          "name": "Preheat and prep",
+          "text": "Preheat the oven to 220°C (200°C fan). While it heats, halve the potatoes, cut the onion into wedges and slice the peppers.",
+          "min": 10
+        },
+        {
+          "name": "Roast the base",
+          "text": "Toss the potatoes, onion and peppers with the oil and oregano and roast for 12 minutes. Meanwhile chunk the courgettes, then grate the cucumber, crush the garlic, chop the mint and mix the tzatziki.",
+          "min": 12
+        },
+        {
+          "name": "Add the halloumi",
+          "text": "Add the courgettes and tomatoes, lay the sliced halloumi on top and roast for 6 minutes.",
+          "min": 6
+        },
+        {
+          "name": "Plate",
+          "text": "Plate with the tzatziki. Pierre-Guy: 480g and 80g tzatziki. Mariska: 320g and 55g tzatziki.",
+          "min": 2
+        }
+      ],
+      "portions": [
+        "Pierre-Guy: 480g + 80g tzatziki",
+        "Mariska: 320g + 55g tzatziki"
+      ],
+      "nutrition": {
+        "kcal": 680,
+        "carbs": 50,
+        "fibre": 8,
+        "protein": 36,
+        "satfat": 12
+      },
+      "note": "Rebuilt from the plan log: the dish and timing are as approved, the method and figures are reconstructed estimates.",
+      "storage": "Cool within 1 hour and refrigerate. Reheat in a pan with a splash of water until piping hot. Keep the tzatziki cold and separate.",
+      "flag": "Time is over 30 min."
+    },
+    {
+      "slug": "psari-plaki-greek-cod-in-tomato-and-oregano",
+      "name": "Psari plaki: Greek cod in tomato and oregano",
+      "type": "Evening meal",
+      "days": "Evenings 5 and 6",
+      "cuisine": "Greek",
+      "diet": [
+        "GlutenFreeDiet",
+        "LowLactoseDiet"
+      ],
+      "prep": 8,
+      "cook": 21,
+      "total": 39,
+      "timeNote": "29 min calculated + 10 min buffer",
+      "equipment": [
+        "Kettle",
+        "Hob",
+        "Saucepan",
+        "Large deep frying pan with lid"
+      ],
+      "ingredients": [
+        "4 skinless cod fillets (about 500g)",
+        "500g small new potatoes",
+        "250g green beans",
+        "2 onions",
+        "3 garlic cloves",
+        "1 × 400g tin chopped tomatoes",
+        "1 tbsp tomato purée",
+        "1 tsp dried oregano",
+        "1 lemon",
+        "1½ tbsp olive oil",
+        "1 small bunch flat-leaf parsley",
+        "A pinch of salt"
+      ],
+      "steps": [
+        {
+          "name": "Kettle and potatoes",
+          "text": "Put the kettle on, then halve the potatoes.",
+          "min": 4
+        },
+        {
+          "name": "Boil and soften",
+          "text": "Boil the potatoes for 12 minutes, adding the beans for the last 4 minutes. Meanwhile slice the onions and soften them in the oil in the frying pan, mince the garlic and trim the beans before they go in.",
+          "min": 12
+        },
+        {
+          "name": "Make the sauce",
+          "text": "Add the garlic, purée, tomatoes and oregano to the onions and simmer for 3 minutes.",
+          "min": 3
+        },
+        {
+          "name": "Cook the cod",
+          "text": "Sit the cod in the sauce, cover and cook for 6 minutes until it flakes. Chop the parsley while it cooks.",
+          "min": 6
+        },
+        {
+          "name": "Finish and plate",
+          "text": "Drain the potatoes and beans, squeeze lemon over the fish, scatter with parsley and plate. Pierre-Guy: 520g. Mariska: 350g.",
+          "min": 4
+        }
+      ],
+      "portions": [
+        "Pierre-Guy: 520g",
+        "Mariska: 350g"
+      ],
+      "nutrition": {
+        "kcal": 560,
+        "carbs": 48,
+        "fibre": 9,
+        "protein": 40,
+        "satfat": 2
+      },
+      "note": "Rebuilt from the plan log: the dish and timing are as approved, the method and figures are reconstructed estimates.",
+      "storage": "Cool within 1 hour and refrigerate. Reheat gently, covered, in a pan for 4 to 5 min until piping hot, or eat the fish cold.",
+      "flag": "Time is over 30 min."
+    },
+    {
+      "slug": "greek-salad-with-crispy-lemon-oregano-tofu",
+      "name": "Greek salad with crispy lemon-oregano tofu",
+      "type": "Lunch salad",
+      "days": "Lunches 1 and 2",
+      "cuisine": "Greek",
+      "diet": [
+        "VegetarianDiet",
+        "GlutenFreeDiet",
+        "LowLactoseDiet"
+      ],
+      "prep": 14,
+      "cook": 15,
+      "total": 39,
+      "timeNote": "29 min calculated + 10 min buffer",
+      "equipment": [
+        "Air fryer",
+        "Knife",
+        "Jar"
+      ],
+      "ingredients": [
+        "2 × 280g blocks extra-firm tofu",
+        "1 tbsp cornflour",
+        "1 lemon",
+        "2 tsp dried oregano",
+        "1 tbsp olive oil",
+        "2 cucumbers",
+        "300g cherry tomatoes",
+        "1 green pepper",
+        "1 small red onion",
+        "100g feta",
+        "60g pitted Kalamata olives",
+        "40g pumpkin seeds",
+        "Dressing: 1½ tbsp extra virgin olive oil",
+        "Dressing: 1 tbsp red wine vinegar",
+        "Dressing: ½ tsp dried oregano, a pinch of salt"
+      ],
+      "steps": [
+        {
+          "name": "Prep the tofu",
+          "text": "Pat the tofu dry and cut it into cubes.",
+          "min": 5
+        },
+        {
+          "name": "Season",
+          "text": "Toss the tofu with the cornflour, oil, lemon zest and oregano.",
+          "min": 2
+        },
+        {
+          "name": "Air fry",
+          "text": "Air fry at 200°C for 15 minutes, shaking halfway. Meanwhile dice the cucumbers, halve the tomatoes, slice the pepper and onion, and whisk the dressing.",
+          "min": 15
+        },
+        {
+          "name": "Cool",
+          "text": "Let the tofu cool for 2 minutes.",
+          "min": 2
+        },
+        {
+          "name": "Box up",
+          "text": "Divide everything into 4 boxes with the feta, olives and seeds on top. Pierre-Guy: 430g and 20g dressing. Mariska: 290g and 15g dressing.",
+          "min": 5
+        }
+      ],
+      "portions": [
+        "Pierre-Guy: 430g + 20g dressing + 80g chicken",
+        "Mariska: 290g + 15g dressing"
+      ],
+      "nutrition": {
+        "kcal": 500,
+        "carbs": 22,
+        "fibre": 7,
+        "protein": 33,
+        "satfat": 6.5
+      },
+      "note": "Rebuilt from the plan log: the dish and timing are as approved, the method and figures are reconstructed estimates.",
+      "packing": "Dressing in its own pot, tofu on top so it stays crisp.",
+      "nutritionNote": "Pierre-Guy's portion before the chicken",
+      "flag": "Time is over 30 min."
+    },
+    {
+      "slug": "italian-egg-fennel-and-chicory-salad-with-parmesan-and-walnu",
+      "name": "Italian egg, fennel and chicory salad with Parmesan and walnuts",
+      "type": "Lunch salad",
+      "days": "Lunches 3 and 4",
+      "cuisine": "Italian",
+      "diet": [
+        "VegetarianDiet",
+        "GlutenFreeDiet",
+        "LowLactoseDiet"
+      ],
+      "prep": 19,
+      "cook": 9,
+      "total": 38,
+      "timeNote": "28 min calculated + 10 min buffer",
+      "equipment": [
+        "Kettle",
+        "Saucepan",
+        "Bowl",
+        "Jar"
+      ],
+      "ingredients": [
+        "8 eggs",
+        "2 fennel bulbs",
+        "3 heads chicory",
+        "1 head gem lettuce",
+        "60g Parmesan",
+        "50g walnuts",
+        "Dressing: juice of 1 lemon",
+        "Dressing: 2 tbsp capers",
+        "Dressing: 1½ tbsp extra virgin olive oil",
+        "Dressing: 1 tsp Dijon mustard (GF), a pinch of salt"
+      ],
+      "steps": [
+        {
+          "name": "Boil the water",
+          "text": "Boil the kettle and bring a pan of water back to the boil.",
+          "min": 3
+        },
+        {
+          "name": "Cook the eggs",
+          "text": "Boil the eggs for 9 minutes. Meanwhile thinly slice the fennel, separate the chicory leaves, chop the capers and whisk the dressing.",
+          "min": 9
+        },
+        {
+          "name": "Cool",
+          "text": "Cool the eggs in cold water.",
+          "min": 4
+        },
+        {
+          "name": "Peel",
+          "text": "Peel and halve the eggs.",
+          "min": 5
+        },
+        {
+          "name": "Cheese and nuts",
+          "text": "Shave the Parmesan and break up the walnuts.",
+          "min": 3
+        },
+        {
+          "name": "Box up",
+          "text": "Divide everything into 4 boxes. Pierre-Guy: 330g with 5 egg halves and 20g dressing. Mariska: 220g with 3 egg halves and 15g dressing.",
+          "min": 4
+        }
+      ],
+      "portions": [
+        "Pierre-Guy: 330g (5 egg halves) + 20g dressing + 80g chicken",
+        "Mariska: 220g (3 egg halves) + 15g dressing"
+      ],
+      "nutrition": {
+        "kcal": 490,
+        "carbs": 9,
+        "fibre": 7,
+        "protein": 28,
+        "satfat": 9.5
+      },
+      "note": "Rebuilt from the plan log: the dish and timing are as approved, the method and figures are reconstructed estimates.",
+      "packing": "Dressing in its own pot.",
+      "nutritionNote": "Pierre-Guy's portion before the chicken",
+      "flag": "Egg recipe: adjust breakfast on these days. Time is over 30 min."
+    },
+    {
+      "slug": "spanish-manchego-orange-and-almond-salad-with-smoked-paprika",
+      "name": "Spanish Manchego, orange and almond salad with smoked-paprika yoghurt",
+      "type": "Lunch salad",
+      "days": "Lunches 5 and 6",
+      "cuisine": "Spanish",
+      "diet": [
+        "VegetarianDiet",
+        "GlutenFreeDiet",
+        "LowLactoseDiet"
+      ],
+      "prep": 24,
+      "cook": 3,
+      "total": 37,
+      "timeNote": "27 min calculated + 10 min buffer",
+      "equipment": [
+        "Small frying pan",
+        "Knife",
+        "Bowl"
+      ],
+      "ingredients": [
+        "100g Manchego",
+        "4 oranges",
+        "60g blanched almonds",
+        "150g radishes",
+        "1 small red onion",
+        "2 heads gem lettuce",
+        "40g pumpkin seeds",
+        "Whipped yoghurt: 300g lactose-free Greek-style yoghurt",
+        "Whipped yoghurt: 1 tsp sweet smoked paprika",
+        "Whipped yoghurt: ½ lemon, 1 tbsp extra virgin olive oil, a pinch of salt"
+      ],
+      "steps": [
+        {
+          "name": "Toast",
+          "text": "Toast the almonds and seeds in a dry pan.",
+          "min": 3
+        },
+        {
+          "name": "Oranges",
+          "text": "Peel and slice the oranges.",
+          "min": 8
+        },
+        {
+          "name": "Radishes",
+          "text": "Slice the radishes.",
+          "min": 3
+        },
+        {
+          "name": "Onion",
+          "text": "Thinly slice the onion.",
+          "min": 2
+        },
+        {
+          "name": "Gem",
+          "text": "Shred the gem.",
+          "min": 2
+        },
+        {
+          "name": "Manchego",
+          "text": "Dice the Manchego.",
+          "min": 3
+        },
+        {
+          "name": "Whip the yoghurt",
+          "text": "Whip the yoghurt with the paprika, lemon, oil and salt.",
+          "min": 2
+        },
+        {
+          "name": "Box up",
+          "text": "Divide everything into 4 boxes. Pierre-Guy: 330g and 75g yoghurt. Mariska: 220g and 50g yoghurt.",
+          "min": 4
+        }
+      ],
+      "portions": [
+        "Pierre-Guy: 330g + 75g yoghurt + 80g chicken",
+        "Mariska: 220g + 50g yoghurt"
+      ],
+      "nutrition": {
+        "kcal": 470,
+        "carbs": 26,
+        "fibre": 7,
+        "protein": 25,
+        "satfat": 9
+      },
+      "note": "Rebuilt from the plan log: the dish and timing are as approved, the method and figures are reconstructed estimates.",
+      "packing": "Yoghurt in its own pot, gem on top.",
+      "nutritionNote": "Pierre-Guy's portion before the chicken",
+      "flag": "Time is over 30 min."
+    }
+  ]
+}

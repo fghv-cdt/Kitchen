@@ -1,0 +1,420 @@
+{
+  "week": "Week of Tuesday 6 October 2026",
+  "note": "Recipes rebuilt from the plan log.",
+  "recipes": [
+    {
+      "slug": "baked-salmon-on-leeks-with-crushed-new-potatoes-and-dill-mus",
+      "name": "Baked salmon on leeks with crushed new potatoes and dill-mustard yoghurt",
+      "type": "Evening meal",
+      "days": "Evenings 1 and 2",
+      "cuisine": "British",
+      "diet": [
+        "GlutenFreeDiet",
+        "LowLactoseDiet"
+      ],
+      "prep": 13,
+      "cook": 15,
+      "total": 38,
+      "timeNote": "28 min calculated + 10 min buffer",
+      "equipment": [
+        "Kettle",
+        "Oven",
+        "Roasting tray",
+        "Saucepan"
+      ],
+      "ingredients": [
+        "4 salmon fillets (about 500g)",
+        "2 leeks",
+        "250g green beans",
+        "200g frozen peas",
+        "600g small new potatoes",
+        "1 tbsp olive oil",
+        "1 lemon",
+        "Dill-mustard yoghurt: 200g lactose-free Greek-style yoghurt",
+        "Dill-mustard yoghurt: 1 tbsp wholegrain mustard (GF)",
+        "Dill-mustard yoghurt: 1 pack fresh dill"
+      ],
+      "steps": [
+        {
+          "name": "Preheat and prep",
+          "text": "Preheat the oven to 200°C (180°C fan) and boil the kettle. While they heat, halve the potatoes, wash and slice the leeks and trim the beans.",
+          "min": 10
+        },
+        {
+          "name": "Cook",
+          "text": "Boil the potatoes for 15 minutes, adding the peas for the last 2. At the same time lay the leeks and beans in the tray, sit the salmon on top with oil and lemon slices and bake for 12 minutes. Chop the dill and mix it into the yoghurt with the mustard.",
+          "min": 15
+        },
+        {
+          "name": "Crush the potatoes",
+          "text": "Drain the potatoes and peas and crush them lightly.",
+          "min": 2
+        },
+        {
+          "name": "Plate",
+          "text": "Set half aside for tomorrow and plate. Pierre-Guy: 540g and 50g yoghurt. Mariska: 360g and 35g yoghurt.",
+          "min": 1
+        }
+      ],
+      "portions": [
+        "Pierre-Guy: 540g + 50g dill-mustard yoghurt",
+        "Mariska: 360g + 35g dill-mustard yoghurt"
+      ],
+      "nutrition": {
+        "kcal": 650,
+        "carbs": 44,
+        "fibre": 11,
+        "protein": 40,
+        "satfat": 5
+      },
+      "note": "Rebuilt from the plan log: the dish and timing are as approved, the method and figures are reconstructed estimates.",
+      "storage": "Cool within 1 hour and refrigerate. Reheat gently, covered, in a pan for 4 to 5 min until piping hot, or eat the fish cold.",
+      "flag": "Time is over 30 min."
+    },
+    {
+      "slug": "butter-bean-edamame-and-mushroom-stroganoff",
+      "name": "Butter bean, edamame and mushroom stroganoff",
+      "type": "Evening meal",
+      "days": "Evenings 3 and 4",
+      "cuisine": "European",
+      "diet": [
+        "VegetarianDiet",
+        "GlutenFreeDiet",
+        "LowLactoseDiet"
+      ],
+      "prep": 13,
+      "cook": 14,
+      "total": 37,
+      "timeNote": "27 min calculated + 10 min buffer",
+      "equipment": [
+        "Hob",
+        "Large deep frying pan",
+        "Microwave"
+      ],
+      "ingredients": [
+        "2 × 400g tins butter beans",
+        "200g frozen edamame",
+        "400g chestnut mushrooms",
+        "1 onion",
+        "2 garlic cloves",
+        "200g spinach",
+        "2 tsp sweet smoked paprika",
+        "1 tbsp Dijon mustard (GF)",
+        "200g lactose-free Greek-style yoghurt",
+        "30g Parmesan",
+        "1 tbsp olive oil",
+        "150ml gluten-free vegetable stock",
+        "2 × 250g pouches brown basmati rice"
+      ],
+      "steps": [
+        {
+          "name": "Prep",
+          "text": "Dice the onion, mince the garlic and slice the mushrooms.",
+          "min": 8
+        },
+        {
+          "name": "Fry",
+          "text": "Fry the onion and mushrooms in the oil for 6 minutes.",
+          "min": 6
+        },
+        {
+          "name": "Spice",
+          "text": "Add the garlic and paprika and stir for 1 minute.",
+          "min": 1
+        },
+        {
+          "name": "Simmer",
+          "text": "Add the drained beans, edamame and stock and simmer for 5 minutes.",
+          "min": 5
+        },
+        {
+          "name": "Spinach and rice",
+          "text": "Stir in the spinach until it wilts. Microwave one rice pouch at the same time.",
+          "min": 2
+        },
+        {
+          "name": "Finish",
+          "text": "Take off the heat and stir in the Dijon, yoghurt and Parmesan.",
+          "min": 2
+        },
+        {
+          "name": "Plate",
+          "text": "Set half aside and plate. Pierre-Guy: 420g and 150g rice. Mariska: 280g and 100g rice.",
+          "min": 3
+        }
+      ],
+      "portions": [
+        "Pierre-Guy: 420g + 150g rice",
+        "Mariska: 280g + 100g rice"
+      ],
+      "nutrition": {
+        "kcal": 660,
+        "carbs": 62,
+        "fibre": 16,
+        "protein": 36,
+        "satfat": 4.5
+      },
+      "note": "Rebuilt from the plan log: the dish and timing are as approved, the method and figures are reconstructed estimates.",
+      "storage": "Cool within 1 hour and refrigerate. Reheat in a pan with a splash of water until piping hot. Microwave the second rice pouch fresh.",
+      "flag": "Bean recipe for the week. Time is over 30 min."
+    },
+    {
+      "slug": "spanish-style-garlic-prawns-with-peppers-courgette-and-almon",
+      "name": "Spanish-style garlic prawns with peppers, courgette and almonds",
+      "type": "Evening meal",
+      "days": "Evenings 5 and 6",
+      "cuisine": "Spanish",
+      "diet": [
+        "GlutenFreeDiet",
+        "LowLactoseDiet"
+      ],
+      "prep": 12,
+      "cook": 13,
+      "total": 35,
+      "timeNote": "25 min calculated + 10 min buffer",
+      "equipment": [
+        "Hob",
+        "Large frying pan",
+        "Microwave"
+      ],
+      "ingredients": [
+        "600g raw peeled king prawns",
+        "2 peppers",
+        "2 courgettes",
+        "200g frozen peas",
+        "4 garlic cloves",
+        "2 tsp sweet smoked paprika",
+        "40g flaked almonds",
+        "1½ tbsp olive oil",
+        "1 lemon",
+        "1 small bunch flat-leaf parsley",
+        "2 × 250g pouches brown basmati rice"
+      ],
+      "steps": [
+        {
+          "name": "Prep",
+          "text": "Slice the peppers, dice the courgettes and slice the garlic.",
+          "min": 10
+        },
+        {
+          "name": "Toast the almonds",
+          "text": "Toast the almonds in the dry pan, then lift them out.",
+          "min": 2
+        },
+        {
+          "name": "Fry the veg",
+          "text": "Fry the peppers and courgettes in the oil for 6 minutes.",
+          "min": 6
+        },
+        {
+          "name": "Spice",
+          "text": "Add the garlic and paprika and stir for 1 minute.",
+          "min": 1
+        },
+        {
+          "name": "Prawns",
+          "text": "Add the prawns and peas and cook for 4 minutes until the prawns are pink right through. Microwave one rice pouch at the same time.",
+          "min": 4
+        },
+        {
+          "name": "Finish and plate",
+          "text": "Chop the parsley, squeeze over the lemon, scatter with almonds and plate. Pierre-Guy: 400g and 150g rice. Mariska: 270g and 100g rice.",
+          "min": 2
+        }
+      ],
+      "portions": [
+        "Pierre-Guy: 400g + 150g rice",
+        "Mariska: 270g + 100g rice"
+      ],
+      "nutrition": {
+        "kcal": 620,
+        "carbs": 58,
+        "fibre": 9,
+        "protein": 44,
+        "satfat": 3
+      },
+      "note": "Rebuilt from the plan log: the dish and timing are as approved, the method and figures are reconstructed estimates.",
+      "storage": "Cool within 1 hour and refrigerate. Reheat gently, covered, in a pan for 4 to 5 min until piping hot, or eat the fish cold. Microwave the second rice pouch fresh.",
+      "flag": "Time is over 30 min."
+    },
+    {
+      "slug": "green-lentil-comt-and-fennel-salad-with-walnuts",
+      "name": "Green lentil, Comté and fennel salad with walnuts",
+      "type": "Lunch salad",
+      "days": "Lunches 1 and 2",
+      "cuisine": "French",
+      "diet": [
+        "VegetarianDiet",
+        "GlutenFreeDiet",
+        "LowLactoseDiet"
+      ],
+      "prep": 25,
+      "cook": 0,
+      "total": 35,
+      "timeNote": "25 min calculated + 10 min buffer",
+      "equipment": [
+        "Knife",
+        "Jar"
+      ],
+      "ingredients": [
+        "3 × 400g tins green lentils",
+        "100g Comté",
+        "2 fennel bulbs",
+        "150g radishes",
+        "2 heads gem lettuce",
+        "50g walnuts",
+        "Vinaigrette: 1 small shallot",
+        "Vinaigrette: 1 tbsp Dijon mustard (GF)",
+        "Vinaigrette: 1 tbsp red wine vinegar",
+        "Vinaigrette: 1½ tbsp extra virgin olive oil, a pinch of salt"
+      ],
+      "steps": [
+        {
+          "name": "Drain the lentils",
+          "text": "Drain and rinse the lentils.",
+          "min": 3
+        },
+        {
+          "name": "Fennel",
+          "text": "Thinly slice the fennel.",
+          "min": 5
+        },
+        {
+          "name": "Radishes",
+          "text": "Slice the radishes.",
+          "min": 3
+        },
+        {
+          "name": "Gem",
+          "text": "Shred the gem.",
+          "min": 2
+        },
+        {
+          "name": "Comté",
+          "text": "Dice the Comté.",
+          "min": 3
+        },
+        {
+          "name": "Vinaigrette",
+          "text": "Finely dice the shallot and whisk the vinaigrette.",
+          "min": 4
+        },
+        {
+          "name": "Walnuts",
+          "text": "Break up the walnuts.",
+          "min": 1
+        },
+        {
+          "name": "Box up",
+          "text": "Divide everything into 4 boxes. Pierre-Guy: 390g and 20g vinaigrette. Mariska: 260g and 15g vinaigrette.",
+          "min": 4
+        }
+      ],
+      "portions": [
+        "Pierre-Guy: 390g + 20g vinaigrette + 80g chicken",
+        "Mariska: 260g + 15g vinaigrette"
+      ],
+      "nutrition": {
+        "kcal": 480,
+        "carbs": 30,
+        "fibre": 13,
+        "protein": 27,
+        "satfat": 7.5
+      },
+      "note": "Rebuilt from the plan log: the dish and timing are as approved, the method and figures are reconstructed estimates.",
+      "packing": "Vinaigrette in its own pot, gem on top.",
+      "nutritionNote": "Pierre-Guy's portion before the chicken",
+      "flag": "Time is over 30 min."
+    },
+    {
+      "slug": "moroccan-carrot-chickpea-and-orange-salad-with-feta-and-mint",
+      "name": "Moroccan carrot, chickpea and orange salad with feta and mint",
+      "type": "Lunch salad",
+      "days": "Lunches 3 and 4",
+      "cuisine": "Middle Eastern",
+      "diet": [
+        "VegetarianDiet",
+        "GlutenFreeDiet",
+        "LowLactoseDiet"
+      ],
+      "prep": 25,
+      "cook": 2,
+      "total": 37,
+      "timeNote": "27 min calculated + 10 min buffer",
+      "equipment": [
+        "Small frying pan",
+        "Grater",
+        "Jar"
+      ],
+      "ingredients": [
+        "2 × 400g tins chickpeas",
+        "4 carrots",
+        "3 oranges",
+        "120g feta",
+        "1 pack fresh mint",
+        "40g mixed pumpkin and sunflower seeds",
+        "Dressing: juice of 1 of the oranges",
+        "Dressing: 1 tsp ground cumin",
+        "Dressing: 1½ tbsp extra virgin olive oil",
+        "Dressing: 1 tbsp lemon juice, a pinch of salt"
+      ],
+      "steps": [
+        {
+          "name": "Drain the chickpeas",
+          "text": "Drain and rinse the chickpeas.",
+          "min": 3
+        },
+        {
+          "name": "Carrots",
+          "text": "Peel and grate the carrots.",
+          "min": 8
+        },
+        {
+          "name": "Oranges",
+          "text": "Segment 2 of the oranges and juice the third.",
+          "min": 6
+        },
+        {
+          "name": "Mint",
+          "text": "Chop the mint.",
+          "min": 2
+        },
+        {
+          "name": "Seeds",
+          "text": "Toast the seeds in a dry pan.",
+          "min": 2
+        },
+        {
+          "name": "Dressing",
+          "text": "Whisk the dressing.",
+          "min": 2
+        },
+        {
+          "name": "Feta",
+          "text": "Crumble the feta.",
+          "min": 1
+        },
+        {
+          "name": "Box up",
+          "text": "Divide everything into 4 boxes. Pierre-Guy: 400g and 20g dressing. Mariska: 270g and 15g dressing.",
+          "min": 3
+        }
+      ],
+      "portions": [
+        "Pierre-Guy: 400g + 20g dressing + 80g chicken",
+        "Mariska: 270g + 15g dressing"
+      ],
+      "nutrition": {
+        "kcal": 500,
+        "carbs": 48,
+        "fibre": 14,
+        "protein": 25,
+        "satfat": 7
+      },
+      "note": "Rebuilt from the plan log: the dish and timing are as approved, the method and figures are reconstructed estimates.",
+      "packing": "Dressing in its own pot.",
+      "nutritionNote": "Pierre-Guy's portion before the chicken",
+      "flag": "Time is over 30 min."
+    }
+  ]
+}

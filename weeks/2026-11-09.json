@@ -1,0 +1,461 @@
+{
+  "week": "Week of Monday 9 November 2026",
+  "note": "Recipes rebuilt from the plan log. No chicken this week: the salads carry the protein.",
+  "recipes": [
+    {
+      "slug": "one-pan-salmon-with-burst-cherry-tomatoes-olives-and-capers",
+      "name": "One-pan salmon with burst cherry tomatoes, olives and capers",
+      "type": "Evening meal",
+      "days": "Evenings 1 and 2",
+      "cuisine": "Italian",
+      "diet": [
+        "GlutenFreeDiet",
+        "LowLactoseDiet"
+      ],
+      "prep": 4,
+      "cook": 8,
+      "total": 22,
+      "timeNote": "12 min calculated + 10 min buffer",
+      "equipment": [
+        "Hob",
+        "Large frying pan with lid",
+        "Microwave"
+      ],
+      "ingredients": [
+        "4 salmon fillets (about 500g)",
+        "500g cherry tomatoes",
+        "60g pitted black olives",
+        "2 tbsp capers, drained",
+        "2 garlic cloves",
+        "1 lemon",
+        "1 tbsp olive oil",
+        "1 tsp dried oregano",
+        "2 × 250g pouches brown basmati rice",
+        "Black pepper"
+      ],
+      "steps": [
+        {
+          "name": "Prep",
+          "text": "Slice the garlic and halve the lemon.",
+          "min": 2
+        },
+        {
+          "name": "Sear the salmon",
+          "text": "Heat the oil and sear the salmon skin side down for 4 minutes.",
+          "min": 4
+        },
+        {
+          "name": "Burst the tomatoes",
+          "text": "Turn the salmon, add the tomatoes, garlic, olives, capers and oregano, cover and cook for 4 minutes until the tomatoes burst and the salmon is just cooked. Microwave one rice pouch at the same time.",
+          "min": 4
+        },
+        {
+          "name": "Finish and plate",
+          "text": "Squeeze over the lemon, set half aside for tomorrow and plate up. Pierre-Guy: 380g salmon and tomatoes, 150g rice. Mariska: 255g, 100g rice.",
+          "min": 2
+        }
+      ],
+      "portions": [
+        "Pierre-Guy: 380g salmon and tomatoes + 150g rice",
+        "Mariska: 255g + 100g rice"
+      ],
+      "nutrition": {
+        "kcal": 620,
+        "carbs": 45,
+        "fibre": 6,
+        "protein": 36,
+        "satfat": 5.5
+      },
+      "note": "Rebuilt from the plan log: the dish and timing are as approved, the method and figures are reconstructed estimates.",
+      "storage": "Cool within 1 hour and refrigerate. Reheat gently, covered, in a pan for 4 to 5 min until piping hot, or eat the fish cold. Microwave the second rice pouch fresh."
+    },
+    {
+      "slug": "espinacas-con-garbanzos",
+      "name": "Espinacas con garbanzos",
+      "type": "Evening meal",
+      "days": "Evenings 3 and 4",
+      "cuisine": "Spanish",
+      "diet": [
+        "VegetarianDiet",
+        "GlutenFreeDiet",
+        "LowLactoseDiet"
+      ],
+      "prep": 9,
+      "cook": 10,
+      "total": 29,
+      "timeNote": "19 min calculated + 10 min buffer",
+      "equipment": [
+        "Hob",
+        "Large deep frying pan"
+      ],
+      "ingredients": [
+        "3 × 400g tins chickpeas",
+        "400g spinach",
+        "4 garlic cloves",
+        "1 × 400g tin chopped tomatoes",
+        "2 tsp sweet smoked paprika",
+        "1½ tsp ground cumin",
+        "40g flaked almonds",
+        "1½ tbsp olive oil",
+        "1 tbsp sherry vinegar",
+        "300g lactose-free Greek-style yoghurt",
+        "A pinch of salt"
+      ],
+      "steps": [
+        {
+          "name": "Drain the chickpeas",
+          "text": "Drain and rinse the chickpeas.",
+          "min": 3
+        },
+        {
+          "name": "Prep",
+          "text": "Wash the spinach and slice the garlic.",
+          "min": 4
+        },
+        {
+          "name": "Toast the almonds",
+          "text": "Toast the almonds in the oil for 2 minutes until golden, then lift them out.",
+          "min": 2
+        },
+        {
+          "name": "Spice the garlic",
+          "text": "Fry the garlic with the paprika and cumin for 1 minute.",
+          "min": 1
+        },
+        {
+          "name": "Simmer",
+          "text": "Add the chickpeas and tomatoes and simmer for 5 minutes, lightly crushing a few chickpeas.",
+          "min": 5
+        },
+        {
+          "name": "Wilt the spinach",
+          "text": "Stir in the spinach until it wilts, then add the sherry vinegar and season.",
+          "min": 2
+        },
+        {
+          "name": "Plate",
+          "text": "Plate with the yoghurt and almonds. Pierre-Guy: 420g, 120g yoghurt, 12g almonds. Mariska: 280g, 80g yoghurt, 8g almonds.",
+          "min": 2
+        }
+      ],
+      "portions": [
+        "Pierre-Guy: 420g + 120g yoghurt + 12g almonds",
+        "Mariska: 280g + 80g yoghurt + 8g almonds"
+      ],
+      "nutrition": {
+        "kcal": 600,
+        "carbs": 55,
+        "fibre": 17,
+        "protein": 33,
+        "satfat": 4
+      },
+      "note": "Rebuilt from the plan log: the dish and timing are as approved, the method and figures are reconstructed estimates.",
+      "storage": "Cool within 1 hour and refrigerate. Reheat in a pan with a splash of water until piping hot. Keep the yoghurt and almonds separate and add them after reheating."
+    },
+    {
+      "slug": "lemon-oregano-halloumi-with-blistered-peppers-and-mint-yoghu",
+      "name": "Lemon-oregano halloumi with blistered peppers and mint yoghurt",
+      "type": "Evening meal",
+      "days": "Evenings 5 and 6",
+      "cuisine": "Cypriot",
+      "diet": [
+        "VegetarianDiet",
+        "GlutenFreeDiet",
+        "LowLactoseDiet"
+      ],
+      "prep": 9,
+      "cook": 9,
+      "total": 28,
+      "timeNote": "18 min calculated + 10 min buffer",
+      "equipment": [
+        "Hob",
+        "Large frying pan",
+        "Microwave"
+      ],
+      "ingredients": [
+        "2 × 225g lighter halloumi",
+        "3 peppers (mixed colours)",
+        "2 red onions",
+        "2 × 250g pouches brown basmati rice",
+        "1 lemon",
+        "1½ tsp dried oregano",
+        "1 tbsp olive oil",
+        "250g lactose-free Greek-style yoghurt",
+        "1 pack fresh mint",
+        "40g pumpkin seeds"
+      ],
+      "steps": [
+        {
+          "name": "Slice the veg",
+          "text": "Slice the peppers into strips and cut the onions into wedges.",
+          "min": 7
+        },
+        {
+          "name": "Blister the veg",
+          "text": "Fry the peppers and onions in the oil over a high heat for 5 minutes. While they cook, chop the mint and stir it into the yoghurt.",
+          "min": 5
+        },
+        {
+          "name": "Fry the halloumi",
+          "text": "Push the veg to the side, slice the halloumi and fry it for 2 minutes a side. Microwave one rice pouch at the same time.",
+          "min": 4
+        },
+        {
+          "name": "Finish and plate",
+          "text": "Squeeze over the lemon, scatter with oregano and seeds, and plate. Pierre-Guy: 340g, 150g rice, 60g mint yoghurt. Mariska: 230g, 100g rice, 40g yoghurt.",
+          "min": 2
+        }
+      ],
+      "portions": [
+        "Pierre-Guy: 340g + 150g rice + 60g mint yoghurt",
+        "Mariska: 230g + 100g rice + 40g mint yoghurt"
+      ],
+      "nutrition": {
+        "kcal": 690,
+        "carbs": 52,
+        "fibre": 8,
+        "protein": 40,
+        "satfat": 12
+      },
+      "note": "Rebuilt from the plan log: the dish and timing are as approved, the method and figures are reconstructed estimates.",
+      "storage": "Cool within 1 hour and refrigerate. Reheat in a pan for 3 to 4 min until piping hot, keep the mint yoghurt cold, and microwave the second rice pouch fresh."
+    },
+    {
+      "slug": "5-minute-lentil-box-with-feta-and-mint",
+      "name": "5-minute lentil box with feta and mint",
+      "type": "Lunch salad",
+      "days": "Lunches 1 and 2",
+      "cuisine": "Greek",
+      "diet": [
+        "VegetarianDiet",
+        "GlutenFreeDiet",
+        "LowLactoseDiet"
+      ],
+      "prep": 9,
+      "cook": 0,
+      "total": 19,
+      "timeNote": "9 min calculated + 10 min buffer",
+      "equipment": [
+        "Knife",
+        "Jar"
+      ],
+      "ingredients": [
+        "3 × 250g pouches ready-to-eat Puy lentils",
+        "200g feta",
+        "2 cucumbers",
+        "1 pack fresh mint",
+        "50g pumpkin seeds",
+        "Dressing: juice of 1 lemon",
+        "Dressing: 1½ tbsp extra virgin olive oil",
+        "Dressing: 1 tsp dried oregano",
+        "Dressing: a pinch of salt"
+      ],
+      "steps": [
+        {
+          "name": "Dice the cucumber",
+          "text": "Dice the cucumbers.",
+          "min": 4
+        },
+        {
+          "name": "Tear the mint",
+          "text": "Tear the mint leaves.",
+          "min": 1
+        },
+        {
+          "name": "Dressing",
+          "text": "Whisk the dressing and divide it into 4 pots.",
+          "min": 2
+        },
+        {
+          "name": "Box up",
+          "text": "Divide the lentils, cucumber, crumbled feta, mint and seeds into 4 boxes. Pierre-Guy: 380g and 25g dressing. Mariska: 255g and 15g dressing.",
+          "min": 2
+        }
+      ],
+      "portions": [
+        "Pierre-Guy: 380g + 25g dressing",
+        "Mariska: 255g + 15g dressing"
+      ],
+      "nutrition": {
+        "kcal": 540,
+        "carbs": 38,
+        "fibre": 13,
+        "protein": 35,
+        "satfat": 9
+      },
+      "note": "Rebuilt from the plan log: the dish and timing are as approved, the method and figures are reconstructed estimates.",
+      "packing": "Dressing in its own pot.",
+      "nutritionNote": "Pierre-Guy's portion before the chicken"
+    },
+    {
+      "slug": "nicoise-with-tuna-and-eggs",
+      "name": "Niçoise with tuna and eggs",
+      "type": "Lunch salad",
+      "days": "Lunches 3 and 4",
+      "cuisine": "French",
+      "diet": [
+        "GlutenFreeDiet",
+        "LowLactoseDiet"
+      ],
+      "prep": 13,
+      "cook": 16,
+      "total": 39,
+      "timeNote": "29 min calculated + 10 min buffer",
+      "equipment": [
+        "Kettle",
+        "Large saucepan",
+        "Bowl",
+        "Jar"
+      ],
+      "ingredients": [
+        "3 × 145g tins tuna in spring water",
+        "6 eggs",
+        "500g small new potatoes",
+        "250g green beans",
+        "150g radishes",
+        "2 heads gem lettuce",
+        "2 tbsp capers",
+        "Dressing: 100g lactose-free Greek-style yoghurt",
+        "Dressing: 1 tbsp Dijon mustard (GF)",
+        "Dressing: 1 tbsp extra virgin olive oil",
+        "Dressing: 1 tbsp white wine vinegar",
+        "Dressing: a pinch of salt"
+      ],
+      "steps": [
+        {
+          "name": "Kettle and potatoes",
+          "text": "Put the kettle on, then wash and halve the potatoes.",
+          "min": 4
+        },
+        {
+          "name": "Boil",
+          "text": "Boil the potatoes for 12 minutes, adding the eggs after 3 minutes and the beans for the last 4 minutes. While they cook, trim the beans before they go in, slice the radishes, shred the gem and whisk the dressing.",
+          "min": 12
+        },
+        {
+          "name": "Cool",
+          "text": "Drain, then cool everything in cold water for 4 minutes.",
+          "min": 4
+        },
+        {
+          "name": "Peel the eggs",
+          "text": "Peel and halve the eggs.",
+          "min": 4
+        },
+        {
+          "name": "Box up",
+          "text": "Drain the tuna and divide everything into 4 boxes. Pierre-Guy: 450g with 4 egg halves and 30g dressing. Mariska: 300g with 2 egg halves and 20g dressing.",
+          "min": 5
+        }
+      ],
+      "portions": [
+        "Pierre-Guy: 450g (4 egg halves) + 30g dressing",
+        "Mariska: 300g (2 egg halves) + 20g dressing"
+      ],
+      "nutrition": {
+        "kcal": 510,
+        "carbs": 30,
+        "fibre": 6,
+        "protein": 42,
+        "satfat": 3.5
+      },
+      "note": "Rebuilt from the plan log: the dish and timing are as approved, the method and figures are reconstructed estimates.",
+      "packing": "Dressing in its own pot, with the gem on top.",
+      "nutritionNote": "Pierre-Guy's portion before the chicken",
+      "flag": "Egg recipe: adjust breakfast on these days. Uses the fish allowance. Time is over 30 min."
+    },
+    {
+      "slug": "levantine-lentil-salad-with-pomegranate-and-tahini-yoghurt",
+      "name": "Levantine lentil salad with pomegranate and tahini yoghurt",
+      "type": "Lunch salad",
+      "days": "Lunches 5 and 6",
+      "cuisine": "Middle Eastern",
+      "diet": [
+        "VegetarianDiet",
+        "GlutenFreeDiet",
+        "LowLactoseDiet"
+      ],
+      "prep": 27,
+      "cook": 0,
+      "total": 37,
+      "timeNote": "27 min calculated + 10 min buffer",
+      "equipment": [
+        "Knife",
+        "Bowl",
+        "Jar"
+      ],
+      "ingredients": [
+        "3 × 400g tins green lentils",
+        "2 cucumbers",
+        "1 bunch spring onions",
+        "1 bunch flat-leaf parsley",
+        "1 pack fresh mint",
+        "1 pomegranate",
+        "40g shelled pistachios",
+        "40g pumpkin seeds",
+        "Dressing: 2 tbsp tahini",
+        "Dressing: 150g lactose-free Greek-style yoghurt",
+        "Dressing: juice of 1 lemon",
+        "Dressing: 1 garlic clove",
+        "Dressing: a pinch of salt and a splash of water"
+      ],
+      "steps": [
+        {
+          "name": "Drain the lentils",
+          "text": "Drain and rinse the lentils.",
+          "min": 3
+        },
+        {
+          "name": "Dice the cucumber",
+          "text": "Dice the cucumbers.",
+          "min": 6
+        },
+        {
+          "name": "Spring onions",
+          "text": "Slice the spring onions.",
+          "min": 2
+        },
+        {
+          "name": "Herbs",
+          "text": "Chop the parsley and mint.",
+          "min": 4
+        },
+        {
+          "name": "Pomegranate",
+          "text": "Halve the pomegranate and knock out the seeds.",
+          "min": 5
+        },
+        {
+          "name": "Dressing",
+          "text": "Grate the garlic and whisk the dressing.",
+          "min": 3
+        },
+        {
+          "name": "Pistachios",
+          "text": "Roughly chop the pistachios.",
+          "min": 1
+        },
+        {
+          "name": "Box up",
+          "text": "Divide everything into 4 boxes, with the dressing in pots. Pierre-Guy: 380g and 40g dressing. Mariska: 255g and 25g dressing.",
+          "min": 3
+        }
+      ],
+      "portions": [
+        "Pierre-Guy: 380g + 40g dressing",
+        "Mariska: 255g + 25g dressing"
+      ],
+      "nutrition": {
+        "kcal": 520,
+        "carbs": 45,
+        "fibre": 15,
+        "protein": 31,
+        "satfat": 3.5
+      },
+      "note": "Rebuilt from the plan log: the dish and timing are as approved, the method and figures are reconstructed estimates.",
+      "packing": "Tahini yoghurt in its own pot.",
+      "nutritionNote": "Pierre-Guy's portion before the chicken",
+      "flag": "Time is over 30 min."
+    }
+  ]
+}
