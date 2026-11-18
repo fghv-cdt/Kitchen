@@ -19,6 +19,22 @@ def iso(m): return f"PT{int(m)}M"
 W, H, S = 1200, 900, 2  # final size, supersample factor
 
 PIECES = [  # keyword, kind, colours
+    ("salmon", "fillet", ["#f28c62", "#f6b08f"]),
+    ("trout", "fillet", ["#f29a72", "#f6b896"]),
+    ("cod", "fillet", ["#f7f3ea", "#ece4d4"]),
+    ("tuna", "nugget", ["#c99a86", "#b88975"]),
+    ("tofu", "cube", ["#f1d9a0", "#e8c886"]),
+    ("olives", "olive", ["#3b2a3a", "#4e3a4c"]),
+    ("cherry tomatoes", "slice", ["#f26b4f", "#c93a2a"]),
+    ("frozen peas", "pea", ["#78b843", "#6aa83a"]),
+    ("green beans", "strip", ["#4f8f2f", "#5fa03a"]),
+    ("carrot", "ribbon", ["#f08a24", "#f5a24a"]),
+    ("orange", "slice", ["#f7a83a", "#f2c26b"]),
+    ("fennel", "slice", ["#eef3d6", "#cfdc9c"]),
+    ("chicory", "leaf", ["#f2f0c4", "#e3e6a8"]),
+    ("leek", "slice", ["#e6f0c6", "#9cc067"]),
+    ("pomegranate", "pea", ["#b5172f", "#c9283f"]),
+    ("almond", "seed", ["#e9d2a8", "#d9bd8e"]),
     ("prawn", "prawn", ["#f08a5d", "#f5a27a"]),
     ("feta", "cube", ["#fbfaf4", "#f0eee4"]),
     ("manchego", "cube", ["#f3dd9b", "#ead08a"]),
@@ -129,6 +145,15 @@ def piece(d, rnd, kind, cols, x, y, s):
     elif kind == "lemon":
         d.pieslice([x - s * 1.4, y - s * 1.4, x + s * 1.4, y + s * 1.4], 0, 120, fill=cols[0])
         d.pieslice([x - s * 1.15, y - s * 1.15, x + s * 1.15, y + s * 1.15], 5, 115, fill=cols[1])
+    elif kind == "fillet":
+        L, T = s * 3.2, s * 1.6
+        d.rounded_rectangle([x - L, y - T, x + L, y + T], radius=int(T), fill=cols[0])
+        for k in range(-2, 3):
+            d.line([(x + k * L * .32 - s * .5, y - T * .8), (x + k * L * .32 + s * .5, y + T * .8)], fill=cols[1], width=max(2, int(s * .25)))
+    elif kind == "olive":
+        d.ellipse([x - s * .55, y - s * .4, x + s * .55, y + s * .4], fill=c)
+    elif kind == "pea":
+        d.ellipse([x - s * .3, y - s * .3, x + s * .3, y + s * .3], fill=c)
     elif kind == "dust":
         d.ellipse([x - s * .12, y - s * .12, x + s * .12, y + s * .12], fill=c)
 
@@ -159,7 +184,7 @@ def illustrate(r, path):
         blob(d, rnd, cx + inner * .1, cy - inner * .1, inner * .38, "#fbfaf5", n=14, wob=.15)
     unit = inner / 11
     for k, kind, cols in found:
-        count = {"grain": 140, "dust": 60, "seed": 14, "herb": 6, "lemon": 1, "prawn": 8, "mushroom": 10}.get(kind, 9)
+        count = {"grain": 140, "dust": 60, "seed": 14, "herb": 6, "lemon": 1, "prawn": 8, "mushroom": 10, "fillet": 2, "pea": 22, "olive": 7}.get(kind, 9)
         for _ in range(count):
             ang = rnd.uniform(0, 2 * math.pi)
             dist = inner * 0.72 * math.sqrt(rnd.random())
@@ -221,6 +246,7 @@ def recipe_page(r, week_id, img_file):
     ings = "".join(f"<li>{esc(i)}</li>" for i in r["ingredients"])
     ports = "".join(f"<li>{esc(p)}</li>" for p in r["portions"])
     flag = f'<div class="flag">⚑ {esc(r["flag"])}</div>' if r.get("flag") else ""
+    if r.get("note"): flag += f'<p class="meta"><em>{esc(r["note"])}</em></p>'
     tags = "".join(f'<span class="tag">{esc(x.replace("LowLactoseDiet","Lactose-free").replace("Diet",""))}</span>' for x in r["diet"])
     extra = (f"<h2>Next day</h2><p>{esc(r['storage'])}</p>" if r.get("storage") else "") + \
             (f"<h2>Mariska's packing</h2><p>{esc(r['packing'])}</p>" if r.get("packing") else "")
@@ -249,7 +275,8 @@ def week_page(data, built):
         groups.setdefault(r["type"], []).append((f'{r["slug"]}.html', img, r["name"], f'{r["days"]} · {r["total"]} min'))
     body = "".join(f"<h2>{esc(t)}s</h2>" + cards(v) for t, v in groups.items())
     chicken = f'<h2>Chicken for the salads</h2><p>{esc(data["chicken"])}</p>' if data.get("chicken") else ""
-    return head(data["week"]) + f'<p class="meta"><a href="../../index.html">← All weeks</a></p><h1>{esc(data["week"])}</h1>{body}{chicken}</body></html>'
+    note = f'<p class="meta"><em>{esc(data["note"])}</em></p>' if data.get("note") else ""
+    return head(data["week"]) + f'<p class="meta"><a href="../../index.html">← All weeks</a></p><h1>{esc(data["week"])}</h1>{note}{body}{chicken}</body></html>'
 
 def home_page(weeks):
     latest = weeks[0]
