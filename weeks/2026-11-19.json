@@ -1,0 +1,459 @@
+{
+  "week": "Week of Thursday 19 November 2026",
+  "recipes": [
+    {
+      "slug": "prawn-saganaki",
+      "name": "Prawn saganaki",
+      "type": "Evening meal",
+      "days": "Thursday and Friday",
+      "cuisine": "Greek",
+      "diet": [
+        "GlutenFreeDiet",
+        "LowLactoseDiet"
+      ],
+      "prep": 3,
+      "cook": 10,
+      "total": 23,
+      "timeNote": "13 min calculated + 10 min buffer",
+      "equipment": [
+        "Hob",
+        "Large frying pan",
+        "Microwave"
+      ],
+      "ingredients": [
+        "600g raw peeled king prawns (chilled)",
+        "2 × 400g tins chopped tomatoes",
+        "2 garlic cloves",
+        "1 tsp dried oregano",
+        "2 tbsp olive oil",
+        "100g feta",
+        "1 lemon",
+        "2 × 250g pouches plain brown basmati rice",
+        "Black pepper"
+      ],
+      "steps": [
+        {
+          "name": "Crush the garlic",
+          "text": "Crush the garlic.",
+          "min": 1
+        },
+        {
+          "name": "Fry the garlic",
+          "text": "Heat the oil and fry the garlic for 1 minute.",
+          "min": 1
+        },
+        {
+          "name": "Simmer the sauce",
+          "text": "Add the tomatoes and oregano and simmer for 4 minutes.",
+          "min": 4
+        },
+        {
+          "name": "Cook the prawns",
+          "text": "Add the prawns and cook for 4 minutes, until pink right through. Microwave one rice pouch at the same time.",
+          "min": 4
+        },
+        {
+          "name": "Finish",
+          "text": "Take the pan off the heat. Crumble over the feta and squeeze over half the lemon.",
+          "min": 1
+        },
+        {
+          "name": "Portion and plate",
+          "text": "Set half aside for tomorrow and plate up. Pierre-Guy: 375g saganaki and 150g rice. Mariska: 250g saganaki and 100g rice.",
+          "min": 2
+        }
+      ],
+      "portions": [
+        "Pierre-Guy: 375g saganaki + 150g rice",
+        "Mariska: 250g saganaki + 100g rice"
+      ],
+      "storage": "Cool within 1 hour and refrigerate. Reheat gently in a pan for 3 to 4 min until piping hot, and microwave the second rice pouch fresh.",
+      "nutrition": {
+        "kcal": 555,
+        "carbs": 51,
+        "fibre": 6,
+        "protein": 41,
+        "satfat": 5.5
+      }
+    },
+    {
+      "slug": "lentil-mushroom-ragu",
+      "name": "Lentil and mushroom ragù with Parmesan and walnuts",
+      "type": "Evening meal",
+      "days": "Saturday and Sunday",
+      "cuisine": "Italian",
+      "diet": [
+        "VegetarianDiet",
+        "GlutenFreeDiet",
+        "LowLactoseDiet"
+      ],
+      "prep": 6,
+      "cook": 13,
+      "total": 29,
+      "timeNote": "19 min calculated + 10 min buffer",
+      "equipment": [
+        "Hob",
+        "Large deep frying pan"
+      ],
+      "ingredients": [
+        "4 × 400g tins green lentils",
+        "400g chestnut mushrooms",
+        "2 garlic cloves",
+        "1 × 400g tin chopped tomatoes",
+        "1 tbsp tomato purée",
+        "1½ tsp dried oregano",
+        "1½ tbsp olive oil",
+        "50g Parmesan",
+        "40g walnuts",
+        "Black pepper and a pinch of salt"
+      ],
+      "steps": [
+        {
+          "name": "Prep the veg",
+          "text": "Mince the garlic, then thickly slice the mushrooms.",
+          "min": 6
+        },
+        {
+          "name": "Fry the mushrooms",
+          "text": "Fry the mushrooms in the oil for 5 minutes. Drain and rinse the lentils while they cook.",
+          "min": 5
+        },
+        {
+          "name": "Add garlic and purée",
+          "text": "Add the garlic and tomato purée and stir for 1 minute.",
+          "min": 1
+        },
+        {
+          "name": "Simmer",
+          "text": "Add the lentils, tomatoes, oregano and a splash of water and simmer for 5 minutes.",
+          "min": 5
+        },
+        {
+          "name": "Season and plate",
+          "text": "Season, then plate with grated Parmesan and the walnuts broken over by hand. Pierre-Guy: 495g ragù, 15g Parmesan, 12g walnuts. Mariska: 330g ragù, 10g Parmesan, 8g walnuts.",
+          "min": 2
+        }
+      ],
+      "portions": [
+        "Pierre-Guy: 495g ragù + 15g Parmesan + 12g walnuts",
+        "Mariska: 330g ragù + 10g Parmesan + 8g walnuts"
+      ],
+      "storage": "Cool within 1 hour and refrigerate. Reheat with a splash of water until piping hot, then add fresh Parmesan and walnuts.",
+      "nutrition": {
+        "kcal": 505,
+        "carbs": 39,
+        "fibre": 15,
+        "protein": 33,
+        "satfat": 4.5
+      }
+    },
+    {
+      "slug": "chickpea-fatteh",
+      "name": "Chickpea fatteh with wilted spinach",
+      "type": "Evening meal",
+      "days": "Monday and Tuesday",
+      "cuisine": "Middle Eastern",
+      "diet": [
+        "VegetarianDiet",
+        "GlutenFreeDiet",
+        "LowLactoseDiet"
+      ],
+      "prep": 6,
+      "cook": 9,
+      "total": 25,
+      "timeNote": "15 min calculated + 10 min buffer",
+      "equipment": [
+        "Hob",
+        "Large frying pan",
+        "Small frying pan"
+      ],
+      "ingredients": [
+        "4 × 400g tins chickpeas",
+        "300g spinach",
+        "400g lactose-free Greek-style yoghurt",
+        "1 garlic clove",
+        "1 lemon",
+        "1½ tsp ground cumin",
+        "30g pine nuts",
+        "1 tsp sweet smoked paprika",
+        "2 tbsp olive oil",
+        "1 tsp sumac",
+        "A pinch of salt"
+      ],
+      "steps": [
+        {
+          "name": "Drain the chickpeas",
+          "text": "Drain and rinse the chickpeas.",
+          "min": 4
+        },
+        {
+          "name": "Warm the chickpeas",
+          "text": "Warm the chickpeas with the cumin, 1 tbsp oil and a splash of water for 5 minutes, lightly crushing a few. While they warm, wash the spinach, then grate the garlic into the yoghurt with the lemon juice and a pinch of salt.",
+          "min": 5
+        },
+        {
+          "name": "Wilt the spinach",
+          "text": "Stir in the spinach until it wilts, about 2 minutes.",
+          "min": 2
+        },
+        {
+          "name": "Toast the pine nuts",
+          "text": "In the small pan, toast the pine nuts in the remaining 1 tbsp oil for 2 minutes until golden, then take it off the heat and stir in the paprika.",
+          "min": 2
+        },
+        {
+          "name": "Plate",
+          "text": "Plate the chickpeas and spinach, spoon over the yoghurt, then drizzle with the pine nut oil and dust with sumac. Pierre-Guy: 335g chickpeas and spinach, 120g yoghurt, 9g pine nuts. Mariska: 220g, 80g yoghurt, 6g pine nuts.",
+          "min": 2
+        }
+      ],
+      "portions": [
+        "Pierre-Guy: 335g chickpeas and spinach + 120g yoghurt + 9g pine nuts",
+        "Mariska: 220g + 80g yoghurt + 6g pine nuts"
+      ],
+      "storage": "Refrigerate the chickpeas within 1 hour, and keep the yoghurt and pine nut oil separate. Reheat the chickpeas and spinach in a pan until piping hot, then add the cold yoghurt and the oil.",
+      "nutrition": {
+        "kcal": 620,
+        "carbs": 43,
+        "fibre": 17,
+        "protein": 32,
+        "satfat": 6
+      }
+    },
+    {
+      "slug": "spanish-potato-egg-manchego-salad",
+      "name": "Spanish potato, egg and Manchego salad",
+      "type": "Lunch salad",
+      "days": "Thursday and Friday",
+      "cuisine": "Spanish",
+      "diet": [
+        "VegetarianDiet",
+        "GlutenFreeDiet",
+        "LowLactoseDiet"
+      ],
+      "flag": "Egg recipe: adjust breakfast on these days. Time is over 30 min.",
+      "prep": 13,
+      "cook": 16,
+      "total": 39,
+      "timeNote": "29 min calculated + 10 min buffer",
+      "equipment": [
+        "Kettle",
+        "Large saucepan",
+        "Bowl",
+        "Jar"
+      ],
+      "ingredients": [
+        "8 eggs",
+        "600g small new potatoes",
+        "2 peppers (red or yellow)",
+        "2 heads gem lettuce",
+        "80g Manchego",
+        "Dressing: 1½ tbsp extra virgin olive oil",
+        "Dressing: 1 tbsp sherry vinegar",
+        "Dressing: 1 tsp sweet smoked paprika",
+        "Dressing: a pinch of salt"
+      ],
+      "steps": [
+        {
+          "name": "Kettle and potatoes",
+          "text": "Put the kettle on, then wash and halve the potatoes.",
+          "min": 4
+        },
+        {
+          "name": "Boil potatoes and eggs",
+          "text": "Boil the potatoes for 12 minutes, adding the eggs after 3 minutes. While they cook, slice the peppers, shred the gem, dice the Manchego and whisk the dressing.",
+          "min": 12
+        },
+        {
+          "name": "Cool",
+          "text": "Drain, then cool the potatoes and eggs in cold water for 4 minutes.",
+          "min": 4
+        },
+        {
+          "name": "Peel the eggs",
+          "text": "Peel and halve the eggs.",
+          "min": 5
+        },
+        {
+          "name": "Box up",
+          "text": "Divide everything into 4 boxes. Pierre-Guy: 530g with 5 egg halves, 20g dressing and 80g chicken. Mariska: 350g with 3 egg halves and 15g dressing, dressing in its own pot with the gem on top.",
+          "min": 4
+        }
+      ],
+      "portions": [
+        "Pierre-Guy: 530g (5 egg halves) + 20g dressing + 80g chicken",
+        "Mariska: 350g (3 egg halves) + 15g dressing"
+      ],
+      "packing": "Dressing in its own pot, with the gem on top.",
+      "nutrition": {
+        "kcal": 505,
+        "carbs": 32,
+        "fibre": 5,
+        "protein": 25,
+        "satfat": 9.5
+      },
+      "nutritionNote": "Pierre-Guy's portion before the chicken"
+    },
+    {
+      "slug": "lemon-mint-halloumi-buckwheat-salad",
+      "name": "Lemon-mint halloumi with buckwheat and courgette ribbons",
+      "type": "Lunch salad",
+      "days": "Saturday and Sunday",
+      "cuisine": "Mediterranean",
+      "diet": [
+        "VegetarianDiet",
+        "GlutenFreeDiet",
+        "LowLactoseDiet"
+      ],
+      "flag": "Time is over 30 min.",
+      "prep": 13,
+      "cook": 14,
+      "total": 37,
+      "timeNote": "27 min calculated + 10 min buffer",
+      "equipment": [
+        "Kettle",
+        "Saucepan",
+        "Sieve",
+        "Non-stick frying pan",
+        "Vegetable peeler"
+      ],
+      "ingredients": [
+        "1 × 250g lighter halloumi",
+        "120g buckwheat groats",
+        "2 courgettes",
+        "1 cucumber",
+        "1 pack fresh mint",
+        "40g pumpkin seeds",
+        "Dressing: juice of 1 lemon",
+        "Dressing: 1 tbsp extra virgin olive oil",
+        "Dressing: a pinch of salt"
+      ],
+      "steps": [
+        {
+          "name": "Kettle and buckwheat",
+          "text": "Boil the kettle and rinse the buckwheat.",
+          "min": 3
+        },
+        {
+          "name": "Simmer the buckwheat",
+          "text": "Simmer the buckwheat in the boiled water for 12 minutes. While it cooks, peel the courgettes into ribbons, dice the cucumber, chop the mint and whisk the dressing.",
+          "min": 12
+        },
+        {
+          "name": "Drain and cool",
+          "text": "Drain the buckwheat, rinse it cold and drain it well.",
+          "min": 2
+        },
+        {
+          "name": "Fry the halloumi",
+          "text": "Slice the halloumi and fry it in a dry pan for 2 minutes a side.",
+          "min": 6
+        },
+        {
+          "name": "Box up",
+          "text": "Divide everything into 4 boxes, with the halloumi and seeds on top. Pierre-Guy: 390g, 15g dressing and 80g chicken. Mariska: 255g and 10g dressing in its own pot.",
+          "min": 4
+        }
+      ],
+      "portions": [
+        "Pierre-Guy: 390g + 15g dressing + 80g chicken",
+        "Mariska: 255g + 10g dressing"
+      ],
+      "packing": "Dressing in its own pot. The halloumi is good cold.",
+      "nutrition": {
+        "kcal": 445,
+        "carbs": 29,
+        "fibre": 6,
+        "protein": 28,
+        "satfat": 10
+      },
+      "nutritionNote": "Pierre-Guy's portion before the chicken"
+    },
+    {
+      "slug": "greek-wild-rice-salad",
+      "name": "Greek wild rice salad with feta and pistachios",
+      "type": "Lunch salad",
+      "days": "Monday and Tuesday",
+      "cuisine": "Greek",
+      "diet": [
+        "VegetarianDiet",
+        "GlutenFreeDiet",
+        "LowLactoseDiet"
+      ],
+      "prep": 17,
+      "cook": 3,
+      "total": 30,
+      "timeNote": "20 min calculated + 10 min buffer (18 min Sunday evening, 2 min Monday morning)",
+      "equipment": [
+        "Small frying pan",
+        "Knife",
+        "Jar"
+      ],
+      "ingredients": [
+        "1 × 250g pouch wholegrain and wild rice (gluten-free, plain)",
+        "150g feta",
+        "1 cucumber",
+        "150g radishes",
+        "1 pack fresh dill",
+        "50g pumpkin seeds",
+        "30g shelled pistachios",
+        "Dressing: 200g lactose-free Greek-style yoghurt",
+        "Dressing: juice of 1 lemon",
+        "Dressing: 1 tsp dried oregano",
+        "Dressing: 1 tbsp extra virgin olive oil",
+        "Dressing: a pinch of salt"
+      ],
+      "steps": [
+        {
+          "name": "Sunday: chop the veg",
+          "text": "Sunday evening. Dice the cucumber and slice the radishes.",
+          "min": 6
+        },
+        {
+          "name": "Sunday: chop the dill",
+          "text": "Chop the dill.",
+          "min": 2
+        },
+        {
+          "name": "Sunday: toast seeds and nuts",
+          "text": "Toast the seeds and pistachios in a dry pan for 3 minutes.",
+          "min": 3
+        },
+        {
+          "name": "Sunday: dressing",
+          "text": "Whisk the dressing and divide it into 4 pots.",
+          "min": 2
+        },
+        {
+          "name": "Sunday: feta",
+          "text": "Crumble the feta.",
+          "min": 1
+        },
+        {
+          "name": "Sunday: box up",
+          "text": "Divide everything into 4 boxes. Pierre-Guy: 285g, 70g dressing and 80g chicken. Mariska: 190g and 45g dressing.",
+          "min": 4
+        },
+        {
+          "name": "Monday: add the rice",
+          "text": "Monday morning. Open the rice pouch and add half, cold, to Monday's boxes. Refrigerate the rest straight away for Tuesday.",
+          "min": 2
+        }
+      ],
+      "portions": [
+        "Pierre-Guy: 285g + 70g dressing + 80g chicken",
+        "Mariska: 190g + 45g dressing"
+      ],
+      "packing": "The yoghurt dressing goes in its own pot.",
+      "nutrition": {
+        "kcal": 500,
+        "carbs": 28,
+        "fibre": 5,
+        "protein": 21,
+        "satfat": 10.5
+      },
+      "nutritionNote": "Pierre-Guy's portion before the chicken"
+    }
+  ],
+  "chicken": "6 portions of 80g. Keep Thursday to Saturday in the fridge, and freeze Sunday to Tuesday's portions, defrosting each one in the fridge the night before. Best in all three salads, especially Salad A with its smoked paprika dressing."
+}
