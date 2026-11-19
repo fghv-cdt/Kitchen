@@ -210,7 +210,7 @@ li{margin:6px 0}.tag{display:inline-block;background:#e8f0fe;border-radius:12px;
 img.hero{width:100%;border-radius:14px;margin:12px 0}table{border-collapse:collapse}td{padding:4px 12px 4px 0}a{color:#0066cc}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px;padding:0;list-style:none}
 .nav{display:flex;flex-wrap:wrap;gap:10px;margin:4px 0 18px}
-.btn{display:inline-flex;align-items:center;gap:6px;padding:10px 18px;border-radius:999px;background:#fff;color:#1d1d1f;text-decoration:none;font-weight:600;font-size:.95rem;box-shadow:0 1px 4px #0002;border:1px solid #e5e5ea}
+.btn{display:inline-flex;align-items:center;gap:6px;white-space:nowrap;flex:none;padding:10px 18px;border-radius:999px;background:#fff;color:#1d1d1f;text-decoration:none;font-weight:600;font-size:.95rem;box-shadow:0 1px 4px #0002;border:1px solid #e5e5ea}
 .btn:hover,.btn:active{background:#f2f2f7}.btn.primary{background:#2f5d7c;color:#fff;border-color:#2f5d7c}.btn.primary:hover{background:#264d67}
 .weeks{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:18px;padding:0;list-style:none;margin:12px 0}
 .week{display:flex;align-items:center;gap:14px;background:#fff;border-radius:18px;padding:12px;text-decoration:none;color:inherit;box-shadow:0 2px 8px #0001;border:1px solid #e5e5ea;min-height:96px}
